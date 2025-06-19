@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">WordSkill2026Ex</string>
+
+    <!-- 로그인 Activity에서 사용할 문자열 -->
+    <string name="login_title_text">WorldSkills2026</string>
+    <string name="login_email_text_hint">이메일을 입력해주세요.</string>
+    <string name="login_pwd_text_hint">비밀번호를 입력해주세요.</string>
+    <string name="login_email_text">이메일</string>
+    <string name="login_pwd_text">비밀번호</string>
+    <string name="login_findPwd_text">비밀번호 찾기</string>
+    <string name="login_login_btn_text">로그인</string>
+    <string name="login_or_text">또는</string>
+    <string name="login_google_login_btn_text">구글로 로그인</string>
+    <string name="login_signUp_text">회원가입</string>
 </resources>
