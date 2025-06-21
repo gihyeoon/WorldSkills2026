@@ -1,5 +1,6 @@
 package com.lgh.wordskill2026ex.activity;
 
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Log;
@@ -94,6 +95,8 @@ public class LoginActivity extends AppCompatActivity {
         // 회원가입 버튼 클릭 시
         signUpText.setOnClickListener(e -> {
             // 회원가입 화면으로 이동
+            Intent intent = new Intent(getApplicationContext(), RegisterActivity.class);
+            startActivity(intent);
         });
     }
 }
