@@ -23,7 +23,7 @@ import retrofit2.Response;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private final ApiService apiService = RetrofitClientConfig.create();
+    private final ApiService apiService = RetrofitClientConfig.getInstance(this).create(ApiService.class);
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
