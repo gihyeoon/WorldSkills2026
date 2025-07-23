@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:background="@drawable/edittext_border_black">
+
+    <TextView
+        android:id="@+id/sequenceText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        android:translationY="25dp"
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="162dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/usernameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookedHotelNameText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hotel name"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/bookedFullDateText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tue, Sep 10,2024 to Sun, Sep 15,2024"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/bookedPeopleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2 Adults, 0 Children, 1 Room"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/bookedAnotherInfosText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="For sightseeing   Pay with cash"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/bookedPriceText"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="ξ 299"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>
