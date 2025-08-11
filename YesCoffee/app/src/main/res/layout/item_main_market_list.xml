@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <ImageView
+        android:id="@+id/ivMarketImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvGetTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="5분 후 수령"/>
+
+    <TextView
+        android:id="@+id/tvMarketName"
+        android:layout_width="179dp"
+        android:layout_height="74dp"
+        android:text="파리바게트 센텀포레점"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"/>
+
+</LinearLayout>
