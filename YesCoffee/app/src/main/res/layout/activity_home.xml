@@ -179,8 +179,8 @@
         app:layout_constraintVertical_bias="0.26" />
 
     <HorizontalScrollView
-        android:layout_width="377dp"
-        android:layout_height="186dp"
+        android:layout_width="378dp"
+        android:layout_height="157dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.47"
@@ -194,5 +194,15 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal" />
     </HorizontalScrollView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_view"
+        android:layout_width="408dp"
+        android:layout_height="69dp"
+        app:menu="@menu/bottom_menu_nav"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>

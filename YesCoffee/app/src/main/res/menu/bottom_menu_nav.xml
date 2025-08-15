@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/fragment_home"
+        android:title="홈"
+        android:icon="@drawable/ic_home"/>
+    <item
+        android:id="@+id/fragment_purchase"
+        android:title="주문 내역"
+        android:icon="@drawable/ic_purchase"/>
+    <item
+        android:id="@+id/fragment_favorite"
+        android:title="즐겨찾기"
+        android:icon="@drawable/ic_favorite"/>
+    <item
+        android:id="@+id/fragment_mypage"
+        android:title="마이페이지"
+        android:icon="@drawable/ic_mypage"/>
+</menu>

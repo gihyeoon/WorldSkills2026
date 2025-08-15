@@ -1,5 +1,6 @@
 package com.lgh.solofit_frontend.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -10,6 +11,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.lgh.solofit_frontend.R;
 import com.lgh.solofit_frontend.dto.Market;
 
@@ -46,5 +48,22 @@ public class HomeActivity extends AppCompatActivity {
 
             marketListLayout.addView(view);
         }
+
+        BottomNavigationView bottomNav = findViewById(R.id.bottom_nav_view);
+
+        bottomNav.setOnItemSelectedListener(e -> {
+            if (e.getItemId() == R.id.fragment_home) {
+                startActivity(new Intent(this, HomeActivity.class));
+                return true;
+            } else if (e.getItemId() == R.id.fragment_purchase) {
+                return true;
+            } else if (e.getItemId() == R.id.fragment_favorite) {
+                return true;
+            } else if (e.getItemId() == R.id.fragment_mypage) {
+                return true;
+            } else {
+                return false;
+            }
+        });
     }
 }
